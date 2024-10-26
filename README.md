@@ -7,3 +7,4 @@
   folglich auch eine transaktion) pro test erstellt
 * Wenn man doppelt safe sein will, kann man theoretisch das ganze noch in einen runWith call wrappen (würde immer einen
   neuen context erstellen)
+* Über Umwege ist der jeweils äußerste Call, der eine Transaktion startet, dafür verantwortlich und committed diese auch
