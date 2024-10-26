@@ -13,7 +13,7 @@ import { AccountModule } from './domain/account/account.module';
       password: 'admin',
       database: 'pocdb',
       autoLoadEntities: true,
-      synchronize: true,
+      synchronize: false,
     }),
     UserModule,
     AccountModule,
