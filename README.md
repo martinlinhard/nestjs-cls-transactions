@@ -12,4 +12,5 @@
 Daraus lässt sich folgende Implementierung ableiten:
 * ClsModule mit Plugin in `app.module.ts` instanzieren
 * `@Transactional` über jede schreibende Service-Methode geben
+* (Zumindest für schreibende Operationen) muss der `TxHost` anstelle des normalen Repositories verwendet werden
 * Tests müssen nicht angepasst werden
